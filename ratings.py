@@ -10,6 +10,7 @@ def get_restaurant_ratings(file):
 # user input
     user_restaurant = input("Enter your restaurant name: ")
     user_rating = input("Enter your rating for this restaurant: ")
+# add the name and rating of the user's input to be added to the restaurant_ratings dictionary
     restaurant_ratings[user_restaurant] = user_rating
 # need to split each line at ":"]
     for line in ratings_file:
